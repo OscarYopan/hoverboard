@@ -27,7 +27,7 @@ body{
 
 .square {
   background-color: #404040;
-  /* box-shadow: 0 0 .2rem black; */
+  box-shadow: 0 0 .2rem black;
   height: 1.6rem;
   width: 1.6rem;
   margin: .2rem;
