@@ -15,13 +15,15 @@ for(let i = 0; i < squares; i++) {
 
 function setColor(element) {
   const color = getRandomColor()
-  element.style.backgound = colorelement
+  element.style.background = color
+  //element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`
 }
 
 function removeColor(element) {
-  console.log('out');
+  element.style.background = '#404040'
+  //element.style.boxShadow = '0 0 .2rem black'
 }
 
-getRandomColor() {
+function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)]
 }
